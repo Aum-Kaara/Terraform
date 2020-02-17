@@ -21,6 +21,16 @@ resource "azurerm_api_management" "api-management" {
   }
 }
 ```
+
+# How to Run Sample
+
+```
+Terraform init
+Terraform plan
+Terraform apply
+
+```
+
 # Deploy Azure API Management
-![APIM](azure-api-management/Images/APIM.png)
+![APIM](Images/APIM.png)
 
