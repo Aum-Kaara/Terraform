@@ -1,3 +1,8 @@
+# Terraform Provider for Azure (Resource Manager)
+
+The Terraform  Provider for Azure API Management
+
+```
 resource "azurerm_resource_group" "resource-gp" {
   name     = "${var.prefix}-resources"
   location = "${var.location}"
@@ -15,3 +20,7 @@ resource "azurerm_api_management" "api-management" {
     capacity = 1
   }
 }
+```
+# Deploy Azure API Management
+![APIM](azure-api-management/Images/APIM.png)
+
